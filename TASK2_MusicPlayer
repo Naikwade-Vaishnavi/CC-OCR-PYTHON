@@ -1,0 +1,21 @@
+from playsound import playsound
+
+
+print("1 for Tu Chahiye \n 2 for Mere Naam tu \n 3 for Sixwhister \n")
+music = input("Enter the music number that you want to play : ")
+
+for i in music:
+    if i == '1':
+        print("Kindly close the shell to stop the music")
+        playsound('D:\python program by me\MY PROJECTS\codeclause\TASK2-MusicPlayer\music_1.mp3')
+    elif '2' in music :
+        print("Kindly close the shell to stop the music")
+        playsound('D:\\python program by me\\MY PROJECTS\\codeclause\\TASK2-MusicPlayer\\music_2.mp3')
+    elif '3' in music :
+        print("Kindly close the shell to stop the music")
+        playsound('D:\\python program by me\\MY PROJECTS\\codeclause\\TASK2-MusicPlayer\\music_3.mp3')
+    else:
+        print("Enter valid choice")
+        break
+    
+
